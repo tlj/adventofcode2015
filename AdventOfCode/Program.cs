@@ -22,6 +22,9 @@ namespace AdventOfCode2015
                 case "day01":
                     new Day01(isTest).Output();
                     break;
+                case "day02":
+                    new Day02(isTest).Output();
+                    break;
                 default:
                     Console.WriteLine("Invalid day.");
                     break;
