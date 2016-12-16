@@ -8,6 +8,6 @@ namespace AdventOfCode2015.Inputs
     public class Day04
     {
         public static string testData = @"";
-        public static string realData = @"";
+        public static string realData = @"yzbqklnj";
     }
 }
