@@ -17,6 +17,7 @@ namespace AdventOfCode2015
                 Console.WriteLine("Please add dayXX as param.");
                 return;
             }
+            Console.WriteLine("Running " + args[0] + " " + (isTest ? "test" : "real") + "\n");
             switch (args[0])
             {
                 case "day01":
@@ -30,6 +31,9 @@ namespace AdventOfCode2015
                     break;
                 case "day04":
                     new Day04(isTest).Output();
+                    break;
+                case "day05":
+                    new Day05(isTest).Output();
                     break;
                 default:
                     Console.WriteLine("Invalid day.");
